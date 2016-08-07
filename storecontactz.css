@@ -1,0 +1,64 @@
+/**
+ * Store contacts: module for PrestaShop 1.5
+ *
+ * @author      zapalm <zapalm@ya.ru>
+ * @copyright   (c) 2013-2016, zapalm
+ * @link        http://prestashop.modulez.ru/en/frontend-features/39-store-contacts.html The module's homepage
+ * @license     http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
+ */
+
+#storecontactz_block_sidebar .block_content {
+	padding:10px 0 15px 0;
+	background: url(images/block_bg.jpg) no-repeat left bottom transparent
+}
+
+#storecontactz_block_top .block_content {
+
+}
+
+#storecontactz_block_sidebar .title_block, #storecontactz_block_sidebar h4 {
+	padding:6px 11px;
+	font-size: 12px;
+	line-height: auto
+}
+
+#storecontactz_block_sidebar li {
+	margin:0 0 0 60px;
+	font: bold 11px/20px Arial, Verdana, sans-serif;
+}
+
+#storecontactz_block_sidebar li.phone {
+	padding-left: 26px;
+	background: url(images/block_phone.png) no-repeat 0 0 transparent
+}
+
+#storecontactz_block_sidebar li.email a {
+	display:block;
+	margin-left:0px;
+	padding:6px 8px;
+	font:bold 10px Arial,Verdana,sans-serif;
+	color:#fff;
+	text-shadow:0 -1px 0 #000;
+	text-transform:uppercase;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	background:url(images/block_link.png) repeat-x 0 0 #000
+}
+
+#storecontactz_block_sidebar a:hover {
+	text-decoration:none
+}
+
+#storecontactz_block_sidebar .label {
+	display: none
+}
+
+#storecontactz_page .map {
+	height:400px;
+	margin-top: 15px;
+}
+
+#storecontactz_page li {
+	list-style-type: none;
+}
